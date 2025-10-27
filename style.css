@@ -1,0 +1,83 @@
+.start{
+    text-align: center;
+    background-color: #031c2c;
+    color: white;
+    padding: 10px;
+    margin: 0;  
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+.content{
+    padding: 10px;
+    max-width: 999px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 10px auto;
+    background-color: skyblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+.education h2{
+    text-align: center;
+
+}
+.education-item{
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    max-width: 50%;
+
+}
+.education{
+    background-color:skyblue;
+    padding: 10px;
+    max-width: 999px;
+    border-radius: 60px;
+   
+    margin: 0 auto;
+}
+.skills{
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 60px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    max-width: 999px;
+}
+.list-item{
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+       
+}
+.projects{
+     text-align: center;
+    background-color: skyblue;
+    border-radius: 60px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    max-width: 999px;
+}
+.contact{
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 60px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    max-width: 999px;
+}
+.info{
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
