@@ -1,83 +1,40 @@
-.start{
+@font-face {
+    font-family:f1;
+    src: url(./Saphifen.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+    background-size: cover;
+
     text-align: center;
-    background-color: #031c2c;
+    padding: 40px;
+    
+}
+h1{
+    font-size: 100px;
+    font-family: f1;
+    font-weight: 100;
+}
+button{
+    font-size: 20px;
+    padding: 10px 25px;
     color: white;
-    padding: 10px;
-    margin: 0;  
+    background-color: orangered;
+    border: 2px solid white;
+    font-weight: 500;
 }
-.about h2{
-    text-align: center;
-}
-.about p{
-    text-align: center;
-}
-.content{
-    padding: 10px;
-    max-width: 999px;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    margin: 10px auto;
-    background-color: skyblue;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-}
-.education h2{
-    text-align: center;
-
-}
-.education-item{
-    text-align: center;
-    background: white;
-    border-radius: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-    max-width: 50%;
-
-}
-.education{
-    background-color:skyblue;
-    padding: 10px;
-    max-width: 999px;
-    border-radius: 60px;
-   
-    margin: 0 auto;
-}
-.skills{
-    text-align: center;
-    background-color: skyblue;
-    border-radius: 60px;
-    padding-bottom: 5px;
-    margin: 0 auto;
-    max-width: 999px;
-}
-.list-item{
-    text-align: center;
-    background: white;
-    border-radius: 20px;
-    max-width: 300px;
-    margin: 0 auto;
-       
-}
-.projects{
-     text-align: center;
-    background-color: skyblue;
-    border-radius: 60px;
-    padding-bottom: 5px;
-    margin: 0 auto;
-    max-width: 999px;
-}
-.contact{
-    text-align: center;
-    background-color: skyblue;
-    border-radius: 60px;
-    padding-bottom: 5px;
-    margin: 0 auto;
-    max-width: 999px;
-}
-.info{
-    text-align: center;
-    background: white;
-    border-radius: 20px;
-    max-width: 300px;
-    margin: 0 auto;
+button:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
 }
